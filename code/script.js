@@ -14,7 +14,7 @@
     Object.freeze(window.console);
 })();
 
-// Holds the unique 20-character string generated for the current session
+
 let ACTIVE_SESSION_TOKEN = "";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -38,10 +38,10 @@ function initializeSessionToken() {
     if (loginForm) {
         const tokenDisplay = document.createElement('h3');
         
-        // Formats text layout and wraps token sequence inside an un-transformed span highlight container
+        
         tokenDisplay.innerHTML = `single use password-token: <span style="color: #00ff00; font-family: 'JetBrains Mono', monospace; font-size: 1.1em; font-weight: 700; letter-spacing: 1px;">${ACTIVE_SESSION_TOKEN}</span> ------ copy and paste into text box`;
         
-        // MODIFIED: Adjusted text layout sizes to exactly 1em
+        
         tokenDisplay.style.fontSize = "1em";
         tokenDisplay.style.color = "#aaaaaa";
         tokenDisplay.style.textAlign = "left";
@@ -60,9 +60,6 @@ function initializeSessionToken() {
     }
 }
 
-/**
- * Attaches operational hooks to the gateway configuration form layout.
- */
 function initializeDataStreams() {
     const parameterInput = document.getElementById('password-input');
     const syncButton = document.getElementById('login-btn');
@@ -78,9 +75,7 @@ function initializeDataStreams() {
     });
 }
 
-/**
- * Validates the pasted input against the generated temporary token.
- */
+
 function evaluateInputString(dataPayload) {
     const trackingLog = document.getElementById('error-log');
     
@@ -191,9 +186,7 @@ CC BY-SA 4.0</p>
     bindModuleAssets();
 }
 
-/**
- * Queries active template cards and routes targets to deployment buffers.
- */
+
 function bindModuleAssets() {
     const deploymentTriggers = document.querySelectorAll('.launch-btn');
 
@@ -209,9 +202,7 @@ function bindModuleAssets() {
     });
 }
 
-/**
- * Initializes secondary canvas environments and runs resource evaluation.
- */
+
 function compileSubsystemNode(networkPath) {
     const isolatedFrameContext = window.open('about:blank', '_blank');
 
