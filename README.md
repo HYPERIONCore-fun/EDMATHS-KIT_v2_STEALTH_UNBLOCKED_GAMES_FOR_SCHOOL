@@ -1,4 +1,4 @@
-<small>Disclaimer text here</small>
+<small>Disclaimer this ReadMe is AI since i can not be bothered to write one myself and also the only other ai in this is the gradient in the background if you have a probelem the fork off</small>
 # EDMATHS-KIT (Stealth)
 ### Unblocked Games for School
 
