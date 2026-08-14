@@ -1,3 +1,4 @@
+<small>Disclaimer text here</small>
 # EDMATHS-KIT (Stealth)
 ### Unblocked Games for School
 
