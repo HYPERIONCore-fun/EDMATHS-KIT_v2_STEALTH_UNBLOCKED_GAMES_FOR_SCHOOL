@@ -1,7 +1,4 @@
-/**
- * Core Data Pipeline Controller
- * Manages dynamic runtime authentication hashes and structural layout engines.
- */
+
 (function() {
     const defaultExecutionNode = function() {};
     window.console.log = defaultExecutionNode;
@@ -152,14 +149,14 @@ function renderDashboardStructure() {
  <article class="module-card" data-id="DN-123" data-path="modules/module_id=5510/index.html">
     <span class="module-id">SYS_ID: DN-123</span>
     <h3>&#x48;&#x65;&#x78;&#x47;&#x4c;</h3>
-    <p class="description">Compiling temporary physics vectors using persistent matrix storage keys and hardware input controllers.</p>
+    <p class="description">learning how to work with open_gl in the web via webgl and tools like it. via matrix storage</p>
     <button class="launch-btn">INITIALIZE MODULE</button>
 </article> 
 
 <article class="module-card" data-id="DN-456" data-path="modules/module_id=1287/index.html">
     <span class="module-id">SYS_ID: DN-456</span>
     <h3>&#x0044;&#x0072;&#x0069;&#x0076;&#x0065;&#x0020;&#x004D;&#x0061;&#x0064;</h3>
-    <p class="description">Compiling temporary physics vectors using persistent matrix storage keys and hardware input controllers.</p>
+    <p class="description"> learning how to let the user use hardware input controllers for navigating your site</p>
     <button class="launch-btn">INITIALIZE MODULE</button>
 </article> 
 
